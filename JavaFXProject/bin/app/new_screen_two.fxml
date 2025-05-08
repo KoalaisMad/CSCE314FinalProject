@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!-- <?import <styles class="css"></styles>?> -->
+
+<VBox alignment="CENTER" prefHeight="484.0" prefWidth="377.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CustomerController">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Pane prefHeight="334.0" prefWidth="354.0">
+               <children>
+                  <ImageView fitHeight="514.0" fitWidth="378.0" layoutX="-20.0" layoutY="-76.0">
+                     <image>
+                        <Image url="@../../../../Downloads/IMG_1118.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="61.0" layoutX="39.0" layoutY="164.0">
+                     <image>
+                        <Image url="@../../../../Desktop/GrilledCheese.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="28.0" layoutX="264.0" layoutY="161.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%202.01.18%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="31.0" layoutX="108.0" layoutY="256.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%202.02.26%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="25.0" layoutX="199.0" layoutY="256.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%202.04.19%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="38.0" fitWidth="55.0" layoutX="105.0" layoutY="164.0">
+                     <image>
+                        <Image url="@../../../../Desktop/GrilledCheese.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="28.0" layoutX="196.0" layoutY="161.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%202.05.05%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="28.0" layoutX="27.0" layoutY="259.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%202.00.57%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="25.0" layoutX="285.0" layoutY="256.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-27%20at%206.33.35%E2%80%AFPM.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="68.0" fitWidth="132.0" layoutX="34.0" layoutY="41.0">
+                     <image>
+                        <Image url="@../../../../Desktop/Screenshot%202025-04-26%20at%203.50.48%E2%80%AFAM.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="41.0" layoutY="56.0" prefHeight="27.0" prefWidth="113.0" text=" tags to buy the item. ">
+                     <font>
+                        <Font size="7.0" />
+                     </font>
+                  </Label>
+            <Button alignment="TOP_CENTER" layoutX="175.0" layoutY="352.0" mnemonicParsing="false" onAction="#HomePage2" prefHeight="10.0" prefWidth="82.0" styleClass="lightblue-button" stylesheets="@styles.css" text="Home">
+                     <font>
+                        <Font name="Baloo Chettan 2 Regular" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button id="GrilledCheeseCButton" layoutX="53.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="90.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 3.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="SpriteCButton" layoutX="200.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 2.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="PepsiCButton" layoutX="268.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 2.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="KoolAidCButton" layoutX="114.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 1.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="WaterCButton" layoutX="201.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 1.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="RootBeerButton" layoutX="286.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 1.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="-10.0" layoutY="61.0" prefHeight="32.0" prefWidth="216.0" text=" You couldn't even figure that out. ">
+                     <font>
+                        <Font size="7.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="77.0" layoutY="40.0" prefHeight="24.0" prefWidth="45.0" text="HEHE! ">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="48.0" layoutY="47.0" prefHeight="27.0" prefWidth="105.0" text="You gotta press the price ">
+                     <font>
+                        <Font size="7.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="78.0" layoutY="75.0" prefHeight="24.0" prefWidth="45.0" text="HEHE! ">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+            <TextArea fx:id="SelectionMessageC" layoutX="82.0" layoutY="341.0" prefHeight="29.0" prefWidth="80.0" text="Make a selection!">
+                     <font>
+                        <Font size="7.0" />
+                     </font>
+                  </TextArea>
+                  <Button id="CokeCButton" layoutX="33.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleItemSelection" prefHeight="15.0" prefWidth="20.0" styleClass="yyy-button" stylesheets="@styles.css" text="\$ 2.50">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+            <Label fx:id="SelectionM" alignment="CENTER" layoutX="81.0" layoutY="320.0" prefHeight="24.0" prefWidth="81.0" text="Make a selection:">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Button id="payButton" layoutX="82.0" layoutY="376.0" mnemonicParsing="false" onAction="#handlePayment" prefHeight="15.0" prefWidth="81.0" styleClass="yy-button" stylesheets="@styles.css" text="Pay">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="ClearSelectMC" layoutX="83.0" layoutY="397.0" mnemonicParsing="false" onAction="#clearSelection" prefHeight="15.0" prefWidth="81.0" styleClass="yy-button" stylesheets="@styles.css" text="Clear Selection">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+            <TextArea fx:id="SnoopyMessageC" layoutX="-13.0" layoutY="340.0" prefHeight="29.0" prefWidth="80.0" text="">
+                     <font>
+                        <Font size="7.0" />
+                     </font>
+                  </TextArea>
+                  <Label alignment="CENTER" layoutX="-18.0" layoutY="319.0" prefHeight="24.0" prefWidth="81.0" text="Snoopy's message:">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Button id="GC1Avaliability" layoutX="29.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="GC2Avaliability" layoutX="98.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="SpriteAvaliability" layoutX="182.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="PepsiAvaliability" layoutX="252.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="CokeAvaliability" layoutX="4.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="KoolAidAvaliability" layoutX="93.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="WaterAvalibility" layoutX="185.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+                  <Button id="PopularAvaliability" layoutX="276.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAvalibility" prefHeight="12.0" prefWidth="62.0" styleClass="xxx-button" stylesheets="@styles.css" text="Avaliable:">
+                     <font>
+                        <Font size="4.0" />
+                     </font>
+                  </Button>
+         </children></Pane>
+         </children>
+      </VBox>

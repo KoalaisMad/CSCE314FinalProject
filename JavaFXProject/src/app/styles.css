@@ -1,0 +1,64 @@
+.root{
+        -fx-background-color: white;
+}
+
+.greeting-label{
+        -fx-font-size:20pt;
+        -fx-text-fill: #333333;
+}
+
+.maroon-button{
+        -fx-background-color: #c27070;
+        -fx-text-fill:white;
+        -fx-font-size: 14pt;
+        -fx-padding: 8 16 8 16;
+        -fx-background-radius:6;
+}
+
+.green-button{
+        -fx-background-color: rgb(114, 203, 114);
+        -fx-text-fill:white;
+        -fx-font-size: 14pt;
+        -fx-padding: 8 16 8 16;
+        -fx-background-radius:6;
+}
+.blue-button{
+        -fx-background-color: #928ed3;
+        -fx-text-fill:white;
+}
+
+.lightblue-button{
+        -fx-background-color: #84cdc8;
+        -fx-text-fill:white;
+}
+
+.orange-button{
+        -fx-background-color: #ddae6d;
+        -fx-text-fill:white;
+}
+
+.xxx-button{
+        -fx-background-color: #124425;
+        -fx-text-fill:white;
+}
+
+.x-button{
+        -fx-background-color: #2817aa;
+        -fx-text-fill:white;
+}
+
+.xx-button{
+        -fx-background-color: #e9db8a;
+        -fx-text-fill:white;
+}
+
+.yyy-button{
+        -fx-background-color: #ba2252;
+        -fx-text-fill:white;
+}
+
+.yy-button{
+        -fx-background-color: #6dddc9;
+        -fx-text-fill:white;
+}
+
